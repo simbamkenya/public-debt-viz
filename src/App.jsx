@@ -14,7 +14,7 @@ function App() {
   const height = 450;
 
   useEffect(() => {
-    csv("./data.csv", (d) => {
+    csv("data.csv", (d) => {
       return {
         year: d["Year"],
         DomesticDebt: d["Domestic Debt"],
