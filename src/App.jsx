@@ -60,7 +60,7 @@ function App() {
           last 15 years
         </button>
       </div>
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <BarChart data={data} width={width} height={height} />
         <LineChart data={data} width={width} height={height} />
       </div>
